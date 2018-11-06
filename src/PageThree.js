@@ -4,7 +4,7 @@ import { View, Text } from "react-native"
 class PageThree extends Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1, backgroundColor: "blue" }}>
         <Text>This is page three</Text>
       </View>
     )
